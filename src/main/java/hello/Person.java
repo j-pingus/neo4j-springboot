@@ -10,7 +10,7 @@ import org.neo4j.ogm.annotation.GraphId;
 import org.neo4j.ogm.annotation.NodeEntity;
 import org.neo4j.ogm.annotation.Relationship;
 
-@NodeEntity
+@NodeEntity(label="SpringPerson")
 public class Person {
 
 	@GraphId private Long id;
